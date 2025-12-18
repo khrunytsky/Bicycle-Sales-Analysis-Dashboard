@@ -3,6 +3,9 @@
 Projekt przedstawia proces ETL (Extract, Transform, Load) oraz wizualizację danych sprzedażowych sklepu rowerowego. 
 Aplikacja przetwarza dane z pliku CSV i generuje dashboard analityczny.
 
+## 📊 Podgląd Raportu
+![Dashboard Sprzedaży](dashboard_sprzedazy.png)
+
 ## 🛠️ Struktura Projektu
 
 * **`main.py`**: Główny plik uruchomieniowy.
