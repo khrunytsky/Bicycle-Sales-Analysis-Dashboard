@@ -3,17 +3,17 @@
 Projekt przedstawia proces ETL (Extract, Transform, Load) oraz wizualizację danych sprzedażowych sklepu rowerowego. 
 Aplikacja przetwarza dane z pliku CSV i generuje dashboard analityczny.
 
-## 📊 Podgląd Raportu
+##  Podgląd Raportu
 ![Dashboard Sprzedaży](dashboard_sprzedazy.png)
 
-## 🛠️ Struktura Projektu
+## Struktura Projektu
 
 * **`main.py`**: Główny plik uruchomieniowy.
 * **`etl.py`**: Moduł wczytywania i analizy danych.
 * **`visuals.py`**: Moduł generujący dashboard.
 * **`requirements.txt`**: Lista niezbędnych bibliotek.
 
-## 📊 Analiza Biznesowa
+## Analiza Biznesowa
 
 Program automatyzuje wyliczanie:
 * Kluczowych metryk.
@@ -21,12 +21,12 @@ Program automatyzuje wyliczanie:
 * Udziału kategorii produktów w zysku.
 * Rankingu producentów i lokalizacji.
 
-## 📂 Wyniki
+## Wyniki
 
 Po zakończeniu analizy program automatycznie tworzy folder `reports/`, w którym zapisuje gotowy wykres:
 * **`reports/dashboard_sprzedazy.png`** – kompletny dashboard gotowy do wstawienia do prezentacji lub wysłania mailem.
 
-## 🚀 Uruchomienie
+## Uruchomienie
 
 1. **Przygotuj dane**: Upewnij się, że plik `sprzedaz_rowery_2024.csv` znajduje się w głównym folderze projektu.
 2. **Zainstaluj biblioteki**: `pip install -r requirements.txt`
